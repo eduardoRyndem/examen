@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ServletPersona</servlet-name>
+        <servlet-class>servlets.ServletPersona</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletRegistroPersona</servlet-name>
+        <servlet-class>servlets.ServletRegistroPersona</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletConsultarPersona</servlet-name>
+        <servlet-class>servlets.ServletConsultarPersona</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletBusquedaPersona</servlet-name>
+        <servlet-class>servlets.ServletBusquedaPersona</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPersona</servlet-name>
+        <url-pattern>/ServletPersona</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletRegistroPersona</servlet-name>
+        <url-pattern>/ServletRegistroPersona</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletConsultarPersona</servlet-name>
+        <url-pattern>/ServletConsultarPersona</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletBusquedaPersona</servlet-name>
+        <url-pattern>/ServletBusquedaPersona</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,7 @@
+servlets\ServletPersona.class
+servlets\ServletRegistroPersona.class
+servlets\ServletConsultarPersona.class
+dao\PersonaDAO.class
+beans\BusquedaBean.class
+servlets\ServletBusquedaPersona.class
+beans\Persona.class
